@@ -52,7 +52,7 @@
                                                      <p class="card-text">
                                                          <span th:text="${#numbers.formatInteger(fabos.house.getPrice(), 1, 'COMMA') + '円 / 泊'}"></span>
                                                      </p>  
-                                                      <a th:href="@{__${fabos.house.getId()}__/favorite/__${fabos.loves.getUserid()}__/remove}">［お気に入りから削除］</a>                               
+                                                      <a th:href="@{houses/__${fabos.house.getId()}__/favorite/__${fabos.loves.getUserid()}__/remove}">［お気に入りから削除］</a>                               
                                                  </div>
                                              </div>
                                          </div>
