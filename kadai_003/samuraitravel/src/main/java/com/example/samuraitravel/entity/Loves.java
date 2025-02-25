@@ -21,10 +21,10 @@ public class Loves {
     @Column(name = "id")
     private Integer id;
     
-    @Column(name = "houseid")
+    @Column(name = "house_id")
     private Integer houseid;
     
-    @Column(name = "userid")
+    @Column(name = "user_id")
     private Integer userid;
     
     /*
